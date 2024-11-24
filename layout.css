@@ -1,0 +1,106 @@
+/* h1 {
+  display: block;
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  height: 80px;
+  background-color: rgb(19, 69, 52);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid tomato; */
+}
+
+.logo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 1.2rem;
+}
+
+.logo img {
+  height: 60%;
+}
+
+.listmenu {
+  display: flex;
+  gap: 20px;
+  padding: 0 1.2rem;
+}
+
+nav .listmenu a {
+  color: #fff;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url("./50.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.teks {
+  text-align: center;
+}
+
+.tulisan {
+  padding: 60px;
+}
+
+.about-us {
+  text-align: center;
+}
+
+.about-us h2 {
+  margin-bottom: 1rem;
+}
+
+.about-us hr {
+  width: 100px;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.about-us p {
+  margin-bottom: 1rem;
+}
+
+.visi-misi {
+  display: flex;
+  /* border: 2px solid tomato; */
+}
+
+.visi {
+  width: 50%;
+  margin: 10px;
+}
+
+.visi h2 {
+  margin-bottom: 1rem;
+}
+
+.misi {
+  width: 50%;
+  margin: 10px;
+}
+
+.misi h2 {
+  margin-bottom: 1rem;
+}
